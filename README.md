@@ -59,7 +59,7 @@ Keyboard name should be the same as in https://config.qmk.fm.
 
 ```shell
 cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
-zmk-viewer generate cradio
+zmk-viewer generate bastardkb/dilemma/3x5_3
 ```
 Will output this image:
 
@@ -72,7 +72,7 @@ You can pass a .keymap file ([this one for reference](https://github.com/zmkfirm
 
 ```shell
 cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap cradio
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap bastardkb/dilemma/3x5_3
 ```
 will output an image for each layer:
 
@@ -85,7 +85,7 @@ will output an image for each layer:
 
 ```shell
 cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap cradio --single
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap bastardkb/dilemma/3x5_3 --single
 ```
 will output one image with all layers:
 
@@ -95,7 +95,7 @@ will output one image with all layers:
 
 ```shell
 cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap cradio --unified
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap bastardkb/dilemma/3x5_3 --unified
 ```
 will output one image with all layers stacked:
 
