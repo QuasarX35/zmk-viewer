@@ -70,7 +70,8 @@ You can pass a .keymap file ([this one for reference](https://github.com/zmkfirm
 ### Normal
 
 ```shell
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein cradio
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
+ cradio
 ```
 will output an image for each layer:
 
@@ -82,7 +83,8 @@ will output an image for each layer:
 ### Single
 
 ```shell
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein cradio --single
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
+ cradio --single
 ```
 will output one image with all layers:
 
@@ -91,7 +93,8 @@ will output one image with all layers:
 ### Unified
 
 ```shell
-zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein cradio --unified
+zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
+ cradio --unified
 ```
 will output one image with all layers stacked:
 
