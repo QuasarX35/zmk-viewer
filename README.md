@@ -58,6 +58,7 @@ Flags:
 Keyboard name should be the same as in https://config.qmk.fm.
 
 ```shell
+cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
 zmk-viewer generate cradio
 ```
 Will output this image:
@@ -70,6 +71,7 @@ You can pass a .keymap file ([this one for reference](https://github.com/zmkfirm
 ### Normal
 
 ```shell
+cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
 zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
  cradio
 ```
@@ -83,6 +85,7 @@ will output an image for each layer:
 ### Single
 
 ```shell
+cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
 zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
  cradio --single
 ```
@@ -93,6 +96,7 @@ will output one image with all layers:
 ### Unified
 
 ```shell
+cd C:\Users\KZ\Downloads\Installers\zmk-viewer-1.5.0-windows-386
 zmk-viewer generate -f C:\Users\KZ\Desktop\keymap\Klein-zmk\config\boards\shields\klein\klein.keymap
  cradio --unified
 ```
